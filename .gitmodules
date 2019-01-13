@@ -1,0 +1,3 @@
+[submodule "app/boilerplate-common"]
+	path = app/boilerplate-common
+	url = https://github.com/FranzZemen/boilerplate-common

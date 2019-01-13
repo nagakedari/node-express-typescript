@@ -1,0 +1,17 @@
+[{
+    "name": "AdminConsole",
+    "displayName": "Admin",
+    "mongoDatabase": "adminconsole",
+    "domain": "admin.blackhawknetwork.com",
+    "otherProperty": {
+        "stuff": []
+    }
+},{
+    "name": "App1",
+    "displayName": "Partner Site 1",
+    "mongoDatabase": "app1",
+    "domain": "app1.blackhawknetwork.com",
+    "otherProperty": {
+        "stuff": []
+    }
+}]

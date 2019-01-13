@@ -1,0 +1,50 @@
+{
+  "log": {
+    "overrides": [
+      {
+        "name": "Config",
+        "level": "debug"
+      },
+      {
+        "name": "app",
+        "level": "info"
+      },
+      {
+        "name": "login.service",
+        "level": "info"
+      },
+      {
+        "name": "admin.controller",
+        "level": "debug"
+      }
+    ]
+  },
+  "security": {
+    "allowLoginWithGet": true,
+    "secret": "Roukan1985"
+  },
+  "mongo": {
+    "database": {
+      "url": "mongodb://localhost:27017",
+      "options": {
+        "connectTimeoutMS": 1000,
+        "socketTimeoutMS": 5000
+      }
+    }
+  },
+  "contentStorage": {
+    "type": "local",
+    "imagesSubfolder": "images/",
+    "local": {
+      "root": "/dev/contentStorage/"
+    },
+    "s3": {
+    }
+  },
+  "imageProcessing": {
+    "uploadDirectory": "/dev/imageProcessing/upload/",
+    "processedDirectory": "/dev/imageProcessing/processed/",
+    "watermarkDirectory": "/dev/imageProcessing/watermark/",
+    "watermarkCommonFileName": "watermark.png"
+  }
+}

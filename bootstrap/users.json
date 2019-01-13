@@ -1,0 +1,26 @@
+[{
+  "username": "Franz",
+  "name": "Franz Zemen",
+  "hash": "$2a$10$v8qt5M.vf.HU8Tq9TWKAJucgXgG1vJFhyzT77i3Vge6oGiFEcDVtG",
+  "applicationRoles": [{
+    "application": "AdminConsole",
+    "roles": [
+      "Admin"
+    ]
+  },{
+    "application": "App1",
+    "roles": [
+      "Admin"
+    ]
+  }]
+},{
+  "username": "John",
+  "name": "John Doe",
+  "hash": "$2a$10$SFFzPhuDQedvrqvNm7gpMe1hs8GGxTAvFycenrlDbZ.I3A4zlgmVS",
+  "applicationRoles": [{
+    "application": "app1",
+    "roles": [
+      "Admin"
+    ]
+  }]
+}]

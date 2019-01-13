@@ -1,0 +1,14 @@
+*.log
+*swp
+*.err
+node_modules
+public
+.tmp
+.sass-cache
+.idea
+server
+*~
+paintings
+processed*
+originals*
+data
